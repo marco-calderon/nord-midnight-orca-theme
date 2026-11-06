@@ -1,15 +1,15 @@
 {
   "manifestVersion": 2,
-  "id": "nord-dark-theme",
-  "name": "Nord Dark",
-  "version": "1.0.0",
+  "id": "nord-midnight-theme",
+  "name": "Nord Midnight",
+  "version": "1.1.0",
   "description": "Nord with a deeper, uniform #1C1E21 background across the editor, sidebars, tabs and menus.",
   "author": {
     "name": "Marco Calderon",
     "url": "https://github.com/marco-calderon"
   },
   "license": "MIT",
-  "repository": "https://github.com/marco-calderon/nord-dark-orca-theme",
+  "repository": "https://github.com/marco-calderon/nord-midnight-orca-theme",
   "engines": {
     "orca": ">=1.4.246"
   },
@@ -17,8 +17,8 @@
   "contributes": {
     "themes": [
       {
-        "id": "nord-dark",
-        "title": "Nord Dark",
+        "id": "nord-midnight",
+        "title": "Nord Midnight",
         "path": "themes/dark.json"
       }
     ]
