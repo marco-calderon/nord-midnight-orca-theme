@@ -1,9 +1,23 @@
 # Nord Midnight for Orca
 
-A darker take on the [Nord for Orca](https://github.com/stablyai/orca-plugins/tree/main/plugins/nord-theme) theme, with a matching light variant. It includes two themes:
+![Nord Midnight dark and light themes side by side](images/cover.png)
+
+Nord, on a deeper background that is easier on the eyes.
+
+Nord Midnight is based on [Nord for Orca](https://github.com/stablyai/orca-plugins/tree/main/plugins/nord-theme), which follows the [Nord](https://www.nordtheme.com/) color palette. It keeps Nord's calm, low-contrast colors for text, syntax and accents, and replaces its blue-gray surfaces with one darker background. The editor, sidebars and tabs blend into a single quiet canvas, which is easier on the eyes during long sessions. It includes two themes:
 
 - **Nord Midnight** (dark): Nord's text, syntax and accent colors on one deep background, `#1C1E21`, for the editor, sidebars, tabs, cards, menus and inputs.
 - **Nord Midnight Light** (light): Nord's Snow Storm and Polar Night colors on one background, `#E5E9F0`, with syntax colors darkened so each one meets WCAG AA contrast (4.5:1).
+
+## Screenshots
+
+**Nord Midnight**
+
+![Nord Midnight on the editor, file tree, tabs and chat](images/dark.png)
+
+**Nord Midnight Light**
+
+![Nord Midnight Light on the editor, file tree, tabs and chat](images/light.png)
 
 ## Install
 
@@ -42,4 +56,4 @@ orca plugin dev load .
 
 ## License
 
-MIT. Based on Nord for Orca by Lovecast Inc.
+MIT. Based on [Nord for Orca](https://github.com/stablyai/orca-plugins/tree/main/plugins/nord-theme) by Lovecast Inc. and the [Nord](https://www.nordtheme.com/) palette by Arctic Ice Studio.

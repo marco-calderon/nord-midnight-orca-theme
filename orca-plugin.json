@@ -2,8 +2,8 @@
   "manifestVersion": 2,
   "id": "nord-midnight-theme",
   "name": "Nord Midnight",
-  "version": "1.2.0",
-  "description": "Nord with a deeper, uniform #1C1E21 dark background, plus a matching Nord Light variant.",
+  "version": "1.3.0",
+  "description": "Nord on a deeper, uniform #1C1E21 background that is easier on the eyes, plus a matching light theme.",
   "author": {
     "name": "Marco Calderon",
     "url": "https://github.com/marco-calderon"
@@ -27,5 +27,21 @@
         "path": "themes/light.json"
       }
     ]
-  }
+  },
+  "cover": {
+    "path": "images/cover.png",
+    "alt": "Nord Midnight dark and light themes side by side on an editor with a file tree, code and chat"
+  },
+  "screenshots": [
+    {
+      "path": "images/dark.png",
+      "alt": "Nord Midnight on the editor, file tree, tabs and chat",
+      "caption": "Nord Midnight"
+    },
+    {
+      "path": "images/light.png",
+      "alt": "Nord Midnight Light on the editor, file tree, tabs and chat",
+      "caption": "Nord Midnight Light"
+    }
+  ]
 }
