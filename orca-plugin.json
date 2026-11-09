@@ -2,7 +2,7 @@
   "manifestVersion": 2,
   "id": "nord-midnight-theme",
   "name": "Nord Midnight",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "description": "Nord on a deeper, uniform #1C1E21 background that is easier on the eyes, plus a matching light theme.",
   "author": {
     "name": "Marco Calderon",
@@ -25,6 +25,18 @@
         "id": "nord-midnight-light",
         "title": "Nord Midnight Light",
         "path": "themes/light.json"
+      }
+    ],
+    "terminalThemes": [
+      {
+        "id": "nord-midnight",
+        "title": "Nord Midnight",
+        "path": "terminal/dark.json"
+      },
+      {
+        "id": "nord-midnight-light",
+        "title": "Nord Midnight Light",
+        "path": "terminal/light.json"
       }
     ]
   },

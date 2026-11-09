@@ -9,6 +9,8 @@ Nord Midnight is based on [Nord for Orca](https://github.com/stablyai/orca-plugi
 - **Nord Midnight** (dark): Nord's text, syntax and accent colors on one deep background, `#1C1E21`, for the editor, sidebars, tabs, cards, menus and inputs.
 - **Nord Midnight Light** (light): Nord's Snow Storm and Polar Night colors on one background, `#E5E9F0`, with syntax colors darkened so each one meets WCAG AA contrast (4.5:1).
 
+Each theme comes with matching terminal colors.
+
 ## Screenshots
 
 **Nord Midnight**
@@ -21,7 +23,7 @@ Nord Midnight is based on [Nord for Orca](https://github.com/stablyai/orca-plugi
 
 ## Install
 
-In Orca, open Settings → Plugins, search for **Nord Midnight** and install it. Then choose **Nord Midnight** or **Nord Midnight Light** in Settings → Appearance.
+In Orca, open Settings → Plugins, search for **Nord Midnight** and install it. Then choose **Nord Midnight** or **Nord Midnight Light** in Settings → Appearance. The matching terminal colors are offered alongside each theme.
 
 ## Colors
 
@@ -46,6 +48,25 @@ Syntax colors in Nord Midnight Light:
 | Numbers | `#865b7f` |
 | Constants | `#7f6614` |
 | Tags | `#4b6c8c` |
+
+Terminal colors:
+
+| Color | Nord Midnight | Nord Midnight Light |
+| --- | --- | --- |
+| Background | `#1c1e21` | `#e5e9f0` |
+| Text | `#d8dee9` | `#2e3440` |
+| Cursor | `#88c0d0` | `#3b5e85` |
+| Selection | `#434c5e` | `#c8d0dc` |
+| Black / bright | `#3b4252` / `#616e88` | `#3b4252` / `#4c566a` |
+| Red / bright | `#bf616a` / `#dc8088` | `#ae4751` / `#993e47` |
+| Green / bright | `#a3be8c` / `#a3be8c` | `#567040` / `#4b6237` |
+| Yellow / bright | `#ebcb8b` / `#ebcb8b` | `#7f6614` / `#775614` |
+| Blue / bright | `#81a1c1` / `#81a1c1` | `#4b6c8c` / `#3b5e85` |
+| Magenta / bright | `#b48ead` / `#b48ead` | `#865b7f` / `#774f6f` |
+| Cyan / bright | `#88c0d0` / `#8fbcbb` | `#0c7482` / `#1c7473` |
+| White / bright | `#e5e9f0` / `#eceff4` | `#5d6982` / `#7986a0` |
+
+The dark terminal follows Nord's terminal colors, with bright black lifted to `#616e88` so dim text such as shell suggestions stays readable on the deeper background. In the light terminal every color except bright white meets WCAG AA contrast (4.5:1) on `#e5e9f0`, and the bright variants are deeper rather than lighter.
 
 ## Develop
 
