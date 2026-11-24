@@ -2,7 +2,7 @@
   "manifestVersion": 2,
   "id": "nord-midnight-theme",
   "name": "Nord Midnight",
-  "version": "1.4.1",
+  "version": "1.4.2",
   "description": "Nord on a deeper, uniform #1C1E21 background that is easier on the eyes, plus a matching light theme.",
   "author": {
     "name": "Marco Calderon",
@@ -42,17 +42,17 @@
   },
   "cover": {
     "path": "images/cover.png",
-    "alt": "Nord Midnight dark and light themes side by side on an editor with a file tree, code and chat"
+    "alt": "Nord Midnight dark and light themes side by side in Orca, with sample projects, code and a terminal"
   },
   "screenshots": [
     {
       "path": "images/dark.png",
-      "alt": "Nord Midnight on the editor, file tree, tabs and chat",
+      "alt": "Nord Midnight in Orca: the project sidebar, a TypeScript file, a terminal with git output and the file tree",
       "caption": "Nord Midnight"
     },
     {
       "path": "images/light.png",
-      "alt": "Nord Midnight Light on the editor, file tree, tabs and chat",
+      "alt": "Nord Midnight Light in Orca: the project sidebar, a TypeScript file, a terminal with git output and the file tree",
       "caption": "Nord Midnight Light"
     }
   ]

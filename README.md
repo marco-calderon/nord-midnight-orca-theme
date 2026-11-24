@@ -15,11 +15,11 @@ Each theme comes with matching terminal colors.
 
 **Nord Midnight**
 
-![Nord Midnight on the editor, file tree, tabs and chat](images/dark.png)
+![Nord Midnight in Orca: the project sidebar, a TypeScript file, a terminal with git output and the file tree](images/dark.png)
 
 **Nord Midnight Light**
 
-![Nord Midnight Light on the editor, file tree, tabs and chat](images/light.png)
+![Nord Midnight Light in Orca: the project sidebar, a TypeScript file, a terminal with git output and the file tree](images/light.png)
 
 ## Install
 
