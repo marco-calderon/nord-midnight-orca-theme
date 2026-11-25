@@ -21,6 +21,14 @@ Each theme comes with matching terminal colors.
 
 ![Nord Midnight Light in Orca: the project sidebar, a TypeScript file, a terminal with git output and the file tree](images/light.png)
 
+**Nord Midnight chat**
+
+![Nord Midnight on an Orca chat with Claude: a message, tool activity with a diff, inline code, a code block and a link](images/chat-dark.png)
+
+**Nord Midnight Light chat**
+
+![Nord Midnight Light on an Orca chat with Claude: a message, tool activity with a diff, inline code, a code block and a link](images/chat-light.png)
+
 ## Install
 
 In Orca, open Settings → Plugins, search for **Nord Midnight** and install it. Then choose **Nord Midnight** or **Nord Midnight Light** in Settings → Appearance. The matching terminal colors are offered alongside each theme.
@@ -35,9 +43,24 @@ In Orca, open Settings → Plugins, search for **Nord Midnight** and install it.
 | Borders and dividers | `#3b4252` | `#c8d0dc` |
 | Text field and button outlines | `#434c5e` | `#b8c2d1` |
 | Active tab underline | `#88c0d0` | `#5e81ac` |
-| Your chat messages | `#2e3440` | `#d8dee9` |
+| Links | `#88c0d0` | `#3b5e85` |
 
 Borders sit only a step above the background so panels stay distinct without drawing the eye. Text fields, selects and outlined buttons get a slightly stronger outline so they still read as things you can type into or click. In the dark theme, Orca also gives text fields a faint `#282c33` fill from that outline color.
+
+Chat colors:
+
+| Part | Nord Midnight | Nord Midnight Light |
+| --- | --- | --- |
+| Your messages | `#2e3440` | `#d8dee9` |
+| Bold text | `#eceff4` | `#2e3440` |
+| Secondary text | `#9099ac` | `#4c566a` |
+| Code blocks and tool output | `#1c1e21` | `#eceff4` |
+| Inline code | `#8fbcbb` on `#3b4252` | `#1c7473` on `#eceff4` |
+| Selected text | `#eceff4` on `#434c5e` | `#2e3440` on `#c8d0dc` |
+
+Code blocks in the dark chat sit on the editor's `#1c1e21`, a step below the chat background (Orca lightens the chat to about `#26282c`), and inline code gets a raised chip. In the light chat both are a lighter `#eceff4` well. Every chat color meets the 4.5:1 contrast Orca requires, so none of them are dropped for its defaults.
+
+The chat uses these colors only while **Match terminal interface** is off in Settings → Appearance → Chat UI. With it on, Orca colors the chat from the terminal theme instead.
 
 Syntax colors in Nord Midnight Light:
 
